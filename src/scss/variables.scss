@@ -1,0 +1,51 @@
+$edge-spacing: 1.3rem;
+
+// Site Colors
+$bb-blue: #4472C4;
+$bb-green: rgb(166, 206, 57);
+$bb-gray: rgb(168, 170, 173);
+$bb-darkblue: #1F3864;
+$bb-darkgray: rgb(89, 90, 92);
+$bb-red: rgb(218, 33, 40);
+$bb-orange: rgb(243, 112, 33);
+$offwhite: #f2f2f2;
+
+$light-blue: lighten($bb-blue, 50%);
+
+
+
+$theme-colors: (
+    "brand": $bb-blue,
+    //"secondary": $bb-green,
+    "primary": $bb-blue,
+    "alternate": $bb-darkblue,
+    "default": $bb-gray,
+    "success": $bb-green,
+    "danger": $bb-red,
+    "warning": $bb-orange,
+    "error": $bb-red,
+    //"light": lighten($bb-gray, 10%),
+    "dark": $bb-darkgray,
+
+);
+
+
+$link-color: $bb-darkblue;
+$component-active-bg: $bb-darkblue;
+$sidenav-bg-color: $light-blue;
+
+
+// Bootstrap Overrides
+$enable-gradients: true;
+$body-bg: $offwhite;
+$nav-tabs-link-active-bg: #fff;
+$font-size-base: 1rem; // Default
+$text-color: #333;
+$enable-shadows: true;
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);

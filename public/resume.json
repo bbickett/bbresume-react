@@ -1,0 +1,196 @@
+{
+    "name": "Brian Bickett",
+    "title": "Senior Full Stack Engineer",
+    "address": {
+        "city": "Naples",
+        "state": "FL"
+    },
+    "websites": {
+        "personal": {
+            "title": "brianbickett.com",
+            "url": "https://www.brianbickett.com/",
+            "icon": null
+        },
+        "linkedin": {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/bbickett/",
+            "icon": "fa-brands fa-linkedin"
+        },
+        "github": {
+            "title": "GitHub",
+            "url": "https://github.com/bbickett",
+            "icon": "fa-brands fa-github"
+        }
+    },
+
+    "summary": "An experienced Full Stack Engineer capable of delivering complex projects through full project life cycle, looking to obtain a position in web development that allows me to use my current knowledge and experience. A team player with excellent analytical, technical, and communication skills looking for the opportunity to continue to learn and be challenged.",
+    "experience": [
+        {
+            "title": "User Interface Engineer",
+            "company": "ChannelAdvisor (now ChannelHub)",
+            "startdate": "Nov 2021",
+            "enddate": "Feb 2023",
+            "duties": [
+                "Create new TypeScript custom components",
+                "Add new functionality to main application custom grid component",
+                "Upgrade .NET MVC pages to React",
+                "Worked on Agile team",
+                "Coordinate with other teams on implementing new features",
+                "Worked with international team members"
+            ]
+        },
+        {
+            "title": "Senior Systems Analyst",
+            "company": "Collier County Public Schools (CCPS)",
+            "startdate": "May 2016",
+            "enddate": "Oct 2021",
+            "duties": [
+                "Architect a new .NET Core 3.1 MVC web application that also integrates Vue.js for SCSS/JS bundling with optional 3rd party and custom single file components",
+                "Mentor all developers on .NET, SQL, and JavaScript best practices and improvements",
+                "Maintain/enhance an existing Web Forms application",
+                "Import federal/state files into SQL Server",
+                "Write custom SQL scripts for a wide variety of data reports",
+                "Redesign and implement a new database",
+                "Research practical applications of using TensorFlow to enhance student and teacher feedback",
+                "Install GitLab Community and setup GitLab Runners for CI/CD",
+                "Create/Maintain documentation using GitLab Wiki"
+            ]
+        },
+        {
+            "title": "Senior Web Applications Engineer",
+            "company": "Interop Technologies",
+            "startdate": "Feb 2016",
+            "enddate": "May 2016",
+            "duties": [
+                "Develop new features and troubleshoot issues for a proprietary web application",
+                "Architect new systems to enhance web application",
+                "Run daily standups"
+            ]
+        },
+        {
+            "title": "Database & Systems Administrator",
+            "company": "Algenol Biotech",
+            "startdate": "Dec 2012",
+            "enddate": "Feb 2016",
+            "duties": [
+                "Architect & develop custom web application (LIM System) for scientists to setup/run experiments. This includes collecting all data via manual or file input, building custom user Excel reports and graphs, alerting, and interacting with other systems via RESTful API",
+                "Develop customized databases and reports from a correlating logging system",
+                "Lead and mentor other developers",
+                "Setup/Maintain/Customize Splunk and GitHub Enterprise",
+                "Customize a 3rd party SPA to continuously show, on a world map, dropped packets from all our IPS and firewalls",
+                "Write apps/services/scripts to help with different IT department tasks"
+            ]
+        },
+        {
+            "title": "JavaScript Frontend Developer",
+            "company": "Arthrex",
+            "startdate": "Jul 2011",
+            "enddate": "Nov 2012",
+            "duties": [
+                "Develop all HTML, CSS, and JavaScript from graphic designer mockups",
+                "Assist in developing user interfaces and designs based on requirements",
+                "Create custom JavaScript and implement/customize 3rd party plugins (Bootstrap, Chosen)",
+                "Develop site style guide"
+            ]
+        },
+        {
+            "title": "Product Manager",
+            "company": "MICROS (Oracle)",
+            "startdate": "Oct 2010",
+            "enddate": "Jul 2011",
+            "duties": [
+                "Manage new product development",
+                "Lead development team",
+                "Research updated libraries for development",
+                "Troubleshoot existing product issues",
+                "Code for product when needed"
+            ]
+        },
+        {
+            "title": "UI Engineer",
+            "company": "INgage Networks (formally Neighborhood America)",
+            "startdate": "Jun 2009",
+            "enddate": "Sept 2010",
+            "duties": [
+                "Develop/maintain core web application and code new features per client request",
+                "Style products per client designs",
+                "Work with client during kickoff meetings",
+                "Setup projects for automated builds",
+                "Document all processes/projects using internal wiki",
+                "Approve designs by creative department"
+            ]
+        }
+    ],
+
+    "skills": [
+        { "skill": "JavaScript", "percent": 95, "type": "language" },
+        { "skill": "TypeScript", "percent": 90, "type": "language" },
+        { "skill": "HTML", "percent": 96, "type": "language" },
+        { "skill": "CSS/SCSS", "percent": 96, "type": "language" },
+        { "skill": "C#", "percent": 90, "type": "language" },
+        { "skill": "Python", "percent": 66, "type": "language" },
+        { "skill": "SQL", "percent": 85, "type": "language" },
+        { "skill": "Java", "percent": 70, "type": "language" },
+        
+        { "skill": "Vue", "percent": 85, "type": "library" },
+        { "skill": "React", "percent": 70, "type": "library" },
+        { "skill": "Bootstrap", "percent": 95, "type": "library" },
+        { "skill": "Webpack", "percent": 90, "type": "library" },
+        { "skill": ".NET MVC Core", "percent": 90, "type": "library" },
+        { "skill": "Entity Framework", "percent": 90, "type": "library" },
+        { "skill": ".NET Web Forms", "percent": 95, "type": "library" },
+        { "skill": "TenserFlow", "percent": 50, "type": "library" },
+        { "skill": "Django", "percent": 50, "type": "library" },
+
+        { "skill": "VS Code", "percent": 90, "type": "devtool" },
+        { "skill": "Visual Studio", "percent": 85, "type": "devtool" },
+        { "skill": "Chrome DevTools", "percent": 95, "type": "devtool" },
+        { "skill": "GitHub", "percent": 90, "type": "devtool" },
+        { "skill": "Netlify", "percent": 80, "type": "devtool" },
+        { "skill": "Node", "percent": 85, "type": "devtool" },
+        { "skill": "Jupyter Notebooks", "percent": 50, "type": "devtool" },
+        { "skill": "Management Studio", "percent": 90, "type": "devtool" },
+
+        { "skill": "Problem Solver", "icon": "search", "type": "personal" },
+        { "skill": "Critical Thinker", "icon": "brain", "type": "personal" },
+        { "skill": "Detail Oriented", "icon": "info", "type": "personal" },
+        { "skill": "Team Leader", "icon": "user-friends", "type": "personal" },
+        { "skill": "Self-Motivated", "icon": "hand-rock", "type": "personal" },
+        { "skill": "Responsible", "icon": "hands-helping", "type": "personal" }
+    ],
+
+    "education": [
+        {
+            "school": "Western Kentucky University",
+            "degree": "Masters in Computer Science",
+            "year": "2008"
+        },
+        {
+            "school": "Western Kentucky University",
+            "degree": "Bachelor of Interdisciplinary Studies Emphasis in Technology",
+            "year": "2006"
+        },
+        {
+            "school": "University of Louisville",
+            "degree": "Computer Information Systems",
+            "year": "1998-2001"
+        }
+    ],
+
+    "hobbies": [
+        { "hobby": "Family Time", "icon": "child", "image": "family"},
+        { "hobby": "Outdoors", "icon": "cloud-sun", "image": "breach"},
+        { "hobby": "Woodworking", "icon": "hammer", "image": "cuttingboard", "url": "https://www.rumrunnerwoodworking.com"},
+        { "hobby": "Reading", "icon": "glasses"},
+        { "hobby": "Photography", "icon": "camera"},
+        { "hobby": "Running", "icon": "running", "image": "boston" },
+        { "hobby": "Working on cars", "icon": "car", "image": "working on truck/jeep" },
+        { "hobby": "Music", "icon": "music", "image": "playing guitar"},
+        { "hobby": "Learning new things", "icon": "code-branch"}
+    ]
+        
+    
+
+
+
+}

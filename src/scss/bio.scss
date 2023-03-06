@@ -1,0 +1,68 @@
+.bio {
+
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    .heading {
+        @extend .text-bg-alternate;
+        @extend .p-3;
+        @extend .ps-4;
+        margin-left: -1 * map-get($spacers, 4);
+        margin-right: -1 * map-get($spacers, 4);
+        margin-top: 4rem;
+        font-size: 1.2rem;
+    }
+
+    .subheading {
+        @extend .mt-4;
+        @extend .mb-1;
+        @extend .d-flex;
+        @extend .align-items-center;
+
+        .info,
+        a {
+            @extend .ms-2;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        a {
+            &:hover, &:active {
+                    text-decoration: underline;
+            }
+        }
+    }
+
+    .degree {
+        @extend .mt-3;
+        @extend .mb-1;
+        font-size: 1.2rem;
+    }
+
+    .hobbies {
+
+        font-size: 1.3rem;
+
+        .hobby {
+            @extend .badge;
+            @extend .rounded-pill;
+            @extend .text-bg-alternate;
+            @extend .me-2;
+            @extend .px-3;
+            @extend .py-2;
+            @extend .mb-2;
+
+
+            .svg-inline--fa {
+                margin-right: 5px;
+            }
+        }
+
+    }
+
+
+
+}

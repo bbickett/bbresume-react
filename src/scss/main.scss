@@ -1,0 +1,82 @@
+@import "variables.scss";
+
+@import "bootstrap/scss/bootstrap";
+
+@import "bio";
+@import "experience";
+@import "skills";
+
+.page {
+
+    margin: 0;
+
+    box-shadow: 3px 3px 10px #333;
+    background-color: #fff;
+
+    @include media-breakpoint-up(sm) {
+        margin: 15px 50px;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin: 30px 50px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin: 30px 100px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        margin: 50px 100px;
+    }
+
+    .page-heading {
+        border-top: 2px solid $bb-darkblue;
+        border-bottom: 2px solid $bb-darkblue;
+        color: $bb-darkblue;
+        @extend .p-3;
+        @extend .ps-5;
+        margin-left: -1 * map-get($spacers, 5);
+        margin-right: -1 * map-get($spacers, 5);
+        @extend .mb-5;
+        margin-top: 4rem;
+        font-size: 1.2rem;
+    }
+
+    .ribbon {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+        span {
+            position: absolute;
+            display: block;
+            width: 300px;
+            padding: 15px 0;
+            background-color: $bb-blue;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+            color: #fff;
+            font: 700 18px/1 'Lato', sans-serif;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+            text-align: center;
+            left: -25px;
+            top: 30px;
+            transform: rotate(45deg);
+        }
+    }
+}
+
+.built-with {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+
+    a {
+        text-decoration: none;
+        font-weight: 600;
+        @extend .p-2;
+    }
+}

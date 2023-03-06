@@ -1,0 +1,37 @@
+.experience {
+
+    .summary {
+        font-size: 1.1rem;
+    }
+
+    .job {
+        @extend .row;
+        @extend .mt-3;
+
+        .dates {
+            @extend .col-md-3;
+            @extend .col-lg-2;
+            font-style: italic;
+        }
+
+        .position {
+            @extend .col;
+            margin-bottom: 0;
+
+            .title {
+                margin-bottom: 0;
+            }
+
+            .company {
+                font-style: italic;
+            }
+        }
+
+        .duties {
+            @extend .mt-2;
+            padding-inline-start: 1rem;
+        }
+    }
+
+
+}
