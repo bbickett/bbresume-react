@@ -28,7 +28,7 @@ function App() {
       <div className="container-xl">
 
         <div className="page">
-          <div className="ribbon"><a href="/"><span><small>Back to<br/></small> <FontAwesomeIcon icon={['fab', 'vuejs']}></FontAwesomeIcon> Vue</span></a></div>
+          <div className="ribbon"><a href="https://www.brianbickett.com"><span><small>Back to<br/></small> <FontAwesomeIcon icon={['fab', 'vuejs']}></FontAwesomeIcon> Vue</span></a></div>
           <div className="container-fluid">
 
               <div className="home">
