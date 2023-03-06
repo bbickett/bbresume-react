@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import Skill from '@/types/Skill'
 
 const SkillItem = (skill: Skill) => {
@@ -12,8 +11,8 @@ const SkillItem = (skill: Skill) => {
     )
 }
 
-const Skills = (resume: any) => {
-    var languageSkills = resume.skills.filter((s: Skill) => s.type === 'language')
+const Skills = ({resume}: any) => {
+    var languageSkills = resume.skills?.filter((s: Skill) => s.type === 'language')
     var librarySkills = resume.skills.filter((s: Skill) => s.type === 'library')
     var devtoolSkills = resume.skills.filter((s: Skill) => s.type === 'devtool')
     var personalSkills = resume.skills.filter((s: Skill) => s.type === 'personal')

@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Bio = (resume: any) => {
+const Bio = ({resume}: any) => {
 
     const degrees = resume.education.map((d:any) => {
         return (

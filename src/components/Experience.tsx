@@ -1,5 +1,5 @@
 
-const Experience = (resume: any) => {
+const Experience = ({resume}: any) => {
 
     return (
         <div className="experience">

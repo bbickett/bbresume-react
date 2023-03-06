@@ -34,7 +34,7 @@ function App() {
               <div className="home">
                   <div className="row">
                       <div className="col-xs-12 col-md-5 col-lg-4 bg-brand p-4">
-                        
+                          
                           {resume && <Bio resume={resume}></Bio>}
                       </div>
                       <div className="col p-5">
